@@ -17,6 +17,6 @@
     
   </dependencies>
   <build>
-    <finalName>hello</finalName>
+    <finalName>ROOT</finalName>
   </build>
 </project>
