@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>sample</servlet-name>
+  	<display-name>sample</display-name>
+  	<description></description>
+  	<servlet-class>com.esprit.example.sample</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>sample</servlet-name>
+  	<url-pattern>/sample</url-pattern>
+  </servlet-mapping>
 </web-app>
